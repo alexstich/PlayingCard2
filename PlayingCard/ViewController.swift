@@ -48,8 +48,6 @@ class ViewController: UIViewController {
     
     var lastChosenCard: PlayingCardView?
     
-    
-    
     @objc func flipCard(_ sender: UITapGestureRecognizer) {
         switch sender.state {
         case .ended:
