@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,241 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PlayingCard2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="ejH-qz-1F8" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="40" y="40" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="g9V-V8-GSR"/>
+                                    <constraint firstAttribute="width" secondItem="ejH-qz-1F8" secondAttribute="height" multiplier="5:8" id="mVe-IS-RPQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="GjP-Mf-bci" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="270" y="40" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="PDM-tw-PAS"/>
+                                    <constraint firstAttribute="width" secondItem="GjP-Mf-bci" secondAttribute="height" multiplier="5:8" id="PIV-Zy-Eze"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Jte-kP-iez" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="40" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="g7I-XU-DAx"/>
+                                    <constraint firstAttribute="width" secondItem="Jte-kP-iez" secondAttribute="height" multiplier="5:8" id="vb8-hI-Gk8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="F3B-1J-yoI" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="265" y="190" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="F3B-1J-yoI" secondAttribute="height" multiplier="5:8" id="03e-ci-G7G"/>
+                                    <constraint firstAttribute="width" constant="70" id="sJV-a4-I6d"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="9Oe-Ya-1jr" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="40" y="190" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="bee-HZ-lNq"/>
+                                    <constraint firstAttribute="width" secondItem="9Oe-Ya-1jr" secondAttribute="height" multiplier="5:8" id="xtp-bA-rHV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="rIL-gK-R4M" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="190" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rIL-gK-R4M" secondAttribute="height" multiplier="5:8" id="K9h-x1-SI2"/>
+                                    <constraint firstAttribute="width" constant="70" id="Qnd-C9-wo6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="QOY-y3-Pxl" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="40" y="341" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="5vj-L4-BAz"/>
+                                    <constraint firstAttribute="width" secondItem="QOY-y3-Pxl" secondAttribute="height" multiplier="5:8" id="Z0p-0g-xff"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="hBm-wt-jmE" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="270" y="341" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hBm-wt-jmE" secondAttribute="height" multiplier="5:8" id="SsC-g3-e0d"/>
+                                    <constraint firstAttribute="width" constant="70" id="a0Q-tT-oVG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="iLz-jW-U4y" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="341" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="9rS-Ok-2ph"/>
+                                    <constraint firstAttribute="width" secondItem="iLz-jW-U4y" secondAttribute="height" multiplier="5:8" id="DZg-62-NdJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="zmH-tn-JHb" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="265" y="491" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zmH-tn-JHb" secondAttribute="height" multiplier="5:8" id="Job-O7-Bre"/>
+                                    <constraint firstAttribute="width" constant="70" id="TbU-76-hdY"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="89Z-gH-kRb" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="40" y="491" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="FzQ-FU-uTV"/>
+                                    <constraint firstAttribute="width" secondItem="89Z-gH-kRb" secondAttribute="height" multiplier="5:8" id="cLK-NW-geg"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="V0x-S5-t79" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="491" width="70" height="112"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="V0x-S5-t79" secondAttribute="height" multiplier="5:8" id="beY-q9-DAn"/>
+                                    <constraint firstAttribute="width" constant="70" id="r5a-2R-KiQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="rIL-gK-R4M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5iV-gA-5B4"/>
+                            <constraint firstItem="ejH-qz-1F8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="6wS-c3-htN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hBm-wt-jmE" secondAttribute="trailing" constant="35" id="Dpx-qf-bnc"/>
+                            <constraint firstItem="Jte-kP-iez" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EFF-zp-lci"/>
+                            <constraint firstItem="iLz-jW-U4y" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EKC-PT-Vf9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hBm-wt-jmE" secondAttribute="bottom" constant="214" id="GNN-ph-Z7g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GjP-Mf-bci" secondAttribute="trailing" constant="35" id="GSH-U0-EvK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F3B-1J-yoI" secondAttribute="trailing" constant="40" id="GwL-cF-XIX"/>
+                            <constraint firstItem="V0x-S5-t79" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="I4u-Tv-cb3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iLz-jW-U4y" secondAttribute="bottom" constant="214" id="ISg-EM-o3K"/>
+                            <constraint firstItem="Jte-kP-iez" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="MEL-jp-YQV"/>
+                            <constraint firstItem="9Oe-Ya-1jr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="O0N-FP-9es"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zmH-tn-JHb" secondAttribute="bottom" constant="64" id="OMN-LE-l1B"/>
+                            <constraint firstItem="rIL-gK-R4M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="190" id="R10-xs-waP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="89Z-gH-kRb" secondAttribute="bottom" constant="64" id="Vjs-EL-VFZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V0x-S5-t79" secondAttribute="bottom" constant="64" id="X8m-ai-V9S"/>
+                            <constraint firstItem="ejH-qz-1F8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="bvU-8U-dxp"/>
+                            <constraint firstItem="F3B-1J-yoI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="190" id="d80-6K-fAo"/>
+                            <constraint firstItem="89Z-gH-kRb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="fWn-oe-bju"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zmH-tn-JHb" secondAttribute="trailing" constant="40" id="h3k-fW-Ke7"/>
+                            <constraint firstItem="9Oe-Ya-1jr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="190" id="hot-2V-agX"/>
+                            <constraint firstItem="GjP-Mf-bci" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="iO3-Xa-5u2"/>
+                            <constraint firstItem="QOY-y3-Pxl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="tAv-Ew-kGH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QOY-y3-Pxl" secondAttribute="bottom" constant="214" id="ycB-kq-MFJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outletCollection property="cardViews" destination="GjP-Mf-bci" collectionClass="NSMutableArray" id="tzc-5H-9Ta"/>
+                        <outletCollection property="cardViews" destination="ejH-qz-1F8" collectionClass="NSMutableArray" id="85J-oH-9dp"/>
+                        <outletCollection property="cardViews" destination="Jte-kP-iez" collectionClass="NSMutableArray" id="pXw-T8-LWf"/>
+                        <outletCollection property="cardViews" destination="9Oe-Ya-1jr" collectionClass="NSMutableArray" id="mnP-JY-wjX"/>
+                        <outletCollection property="cardViews" destination="rIL-gK-R4M" collectionClass="NSMutableArray" id="8zK-bD-H2p"/>
+                        <outletCollection property="cardViews" destination="F3B-1J-yoI" collectionClass="NSMutableArray" id="zNt-Tr-rKW"/>
+                        <outletCollection property="cardViews" destination="QOY-y3-Pxl" collectionClass="NSMutableArray" id="F0J-HC-bMj"/>
+                        <outletCollection property="cardViews" destination="iLz-jW-U4y" collectionClass="NSMutableArray" id="OD9-gp-qe4"/>
+                        <outletCollection property="cardViews" destination="hBm-wt-jmE" collectionClass="NSMutableArray" id="DnX-cS-QSR"/>
+                        <outletCollection property="cardViews" destination="89Z-gH-kRb" collectionClass="NSMutableArray" id="jaO-w6-G5J"/>
+                        <outletCollection property="cardViews" destination="V0x-S5-t79" collectionClass="NSMutableArray" id="nAZ-rF-TbB"/>
+                        <outletCollection property="cardViews" destination="zmH-tn-JHb" collectionClass="NSMutableArray" id="Wxl-5p-RP0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="KBy-Bc-l6s"/>
             </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="72.413793103448285"/>
         </scene>
     </scenes>
 </document>
