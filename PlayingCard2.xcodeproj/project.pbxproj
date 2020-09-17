@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4289EF25138B4500FE0407 /* CMMotionManager+shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4289EE25138B4500FE0407 /* CMMotionManager+shared.swift */; };
 		FAD8457124DC016B0091D452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8457024DC016B0091D452 /* AppDelegate.swift */; };
 		FAD8457324DC016B0091D452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8457224DC016B0091D452 /* SceneDelegate.swift */; };
 		FAD8457524DC016B0091D452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8457424DC016B0091D452 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA4289EE25138B4500FE0407 /* CMMotionManager+shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMMotionManager+shared.swift"; sourceTree = "<group>"; };
 		FAD8456D24DC016B0091D452 /* PlayingCard2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD8457024DC016B0091D452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD8457224DC016B0091D452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			children = (
 				FAD8457624DC016B0091D452 /* Main.storyboard */,
 				FAD8457424DC016B0091D452 /* ViewController.swift */,
+				FA4289EE25138B4500FE0407 /* CMMotionManager+shared.swift */,
 				FAE533E525028F08006CF10D /* CardBehavior.swift */,
 				FAD8457924DC016D0091D452 /* Assets.xcassets */,
 				FA4289ED2513878500FE0407 /* PlayingCard */,
@@ -168,6 +171,7 @@
 			files = (
 				FAD8457524DC016B0091D452 /* ViewController.swift in Sources */,
 				FAD8458A24DC0C570091D452 /* PlayingCardView.swift in Sources */,
+				FA4289EF25138B4500FE0407 /* CMMotionManager+shared.swift in Sources */,
 				FAD8457124DC016B0091D452 /* AppDelegate.swift in Sources */,
 				FAD8458824DC06860091D452 /* PlayingCardDeck.swift in Sources */,
 				FAD8458624DC01D20091D452 /* PlayingCard.swift in Sources */,

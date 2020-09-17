@@ -19,8 +19,8 @@ class CardBehavior: UIDynamicBehavior {
     lazy var itemBehavior: UIDynamicItemBehavior = {
         let behavior = UIDynamicItemBehavior()
         behavior.allowsRotation = false
-        behavior.elasticity = 0.2
-        behavior.resistance = 0.0001
+        behavior.elasticity = 0.95
+        behavior.resistance = 0.000000001
         return behavior
     }()
     
@@ -42,28 +42,37 @@ class CardBehavior: UIDynamicBehavior {
             }
         }
                 
-        push.magnitude = CGFloat(1.0) + CGFloat(arc4random_uniform(200)/100)
+        push.magnitude = CGFloat(1.5) + CGFloat(arc4random_uniform(200)/100)
         push.action = { [unowned push, weak self] in
             self?.removeChildBehavior(push)
         }
         addChildBehavior(push)
     }
     
+    var gravitiBehavior: UIGravityBehavior = {
+        let behavior = UIGravityBehavior()
+        behavior.magnitude = 0
+        return behavior
+    }()
+    
     func addItem(_ item: UIDynamicItem) {
         collisionBehavior.addItem(item)
         itemBehavior.addItem(item)
+        gravitiBehavior.addItem(item)
         push(item)
     }
     
     func removeItem(_ item: UIDynamicItem) {
         collisionBehavior.removeItem(item)
         itemBehavior.removeItem(item)
+        gravitiBehavior.removeItem(item)
     }
     
     override init() {
         super.init()
         addChildBehavior(collisionBehavior)
         addChildBehavior(itemBehavior)
+        addChildBehavior(gravitiBehavior)
     }
     
     convenience init(in animator: UIDynamicAnimator) {
