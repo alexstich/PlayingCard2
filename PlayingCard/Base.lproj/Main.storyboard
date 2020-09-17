@@ -15,8 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="ejH-qz-1F8" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="ejH-qz-1F8" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="40" y="40" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="g9V-V8-GSR"/>
@@ -30,8 +31,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="GjP-Mf-bci" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="GjP-Mf-bci" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="270" y="40" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="PDM-tw-PAS"/>
@@ -45,8 +47,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Jte-kP-iez" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="Jte-kP-iez" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="152.5" y="40" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="g7I-XU-DAx"/>
@@ -60,8 +63,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="F3B-1J-yoI" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="F3B-1J-yoI" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="265" y="190" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="F3B-1J-yoI" secondAttribute="height" multiplier="5:8" id="03e-ci-G7G"/>
@@ -75,8 +79,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="9Oe-Ya-1jr" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="9Oe-Ya-1jr" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="40" y="190" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="bee-HZ-lNq"/>
@@ -90,8 +95,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="rIL-gK-R4M" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="rIL-gK-R4M" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="152.5" y="190" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rIL-gK-R4M" secondAttribute="height" multiplier="5:8" id="K9h-x1-SI2"/>
@@ -105,8 +111,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="QOY-y3-Pxl" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="QOY-y3-Pxl" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="40" y="341" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="5vj-L4-BAz"/>
@@ -120,8 +127,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="hBm-wt-jmE" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="hBm-wt-jmE" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="270" y="341" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hBm-wt-jmE" secondAttribute="height" multiplier="5:8" id="SsC-g3-e0d"/>
@@ -135,8 +143,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="iLz-jW-U4y" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="iLz-jW-U4y" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="152.5" y="341" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="9rS-Ok-2ph"/>
@@ -150,8 +159,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="zmH-tn-JHb" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="zmH-tn-JHb" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="265" y="491" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zmH-tn-JHb" secondAttribute="height" multiplier="5:8" id="Job-O7-Bre"/>
@@ -165,8 +175,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="89Z-gH-kRb" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="89Z-gH-kRb" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="40" y="491" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="FzQ-FU-uTV"/>
@@ -180,8 +191,9 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="suit" value="❤️"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="V0x-S5-t79" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
+                            <view opaque="NO" contentMode="redraw" id="V0x-S5-t79" userLabel="Play Card View" customClass="PlayingCardView" customModule="PlayingCard2" customModuleProvider="target">
                                 <rect key="frame" x="152.5" y="491" width="70" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="V0x-S5-t79" secondAttribute="height" multiplier="5:8" id="beY-q9-DAn"/>
@@ -198,32 +210,6 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="rIL-gK-R4M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5iV-gA-5B4"/>
-                            <constraint firstItem="ejH-qz-1F8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="6wS-c3-htN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hBm-wt-jmE" secondAttribute="trailing" constant="35" id="Dpx-qf-bnc"/>
-                            <constraint firstItem="Jte-kP-iez" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EFF-zp-lci"/>
-                            <constraint firstItem="iLz-jW-U4y" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="EKC-PT-Vf9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hBm-wt-jmE" secondAttribute="bottom" constant="214" id="GNN-ph-Z7g"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GjP-Mf-bci" secondAttribute="trailing" constant="35" id="GSH-U0-EvK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F3B-1J-yoI" secondAttribute="trailing" constant="40" id="GwL-cF-XIX"/>
-                            <constraint firstItem="V0x-S5-t79" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="I4u-Tv-cb3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iLz-jW-U4y" secondAttribute="bottom" constant="214" id="ISg-EM-o3K"/>
-                            <constraint firstItem="Jte-kP-iez" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="MEL-jp-YQV"/>
-                            <constraint firstItem="9Oe-Ya-1jr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="O0N-FP-9es"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zmH-tn-JHb" secondAttribute="bottom" constant="64" id="OMN-LE-l1B"/>
-                            <constraint firstItem="rIL-gK-R4M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="190" id="R10-xs-waP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="89Z-gH-kRb" secondAttribute="bottom" constant="64" id="Vjs-EL-VFZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V0x-S5-t79" secondAttribute="bottom" constant="64" id="X8m-ai-V9S"/>
-                            <constraint firstItem="ejH-qz-1F8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="bvU-8U-dxp"/>
-                            <constraint firstItem="F3B-1J-yoI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="190" id="d80-6K-fAo"/>
-                            <constraint firstItem="89Z-gH-kRb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="fWn-oe-bju"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zmH-tn-JHb" secondAttribute="trailing" constant="40" id="h3k-fW-Ke7"/>
-                            <constraint firstItem="9Oe-Ya-1jr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="190" id="hot-2V-agX"/>
-                            <constraint firstItem="GjP-Mf-bci" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="iO3-Xa-5u2"/>
-                            <constraint firstItem="QOY-y3-Pxl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="tAv-Ew-kGH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QOY-y3-Pxl" secondAttribute="bottom" constant="214" id="ycB-kq-MFJ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>

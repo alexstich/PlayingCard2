@@ -45,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA4289ED2513878500FE0407 /* PlayingCard */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8458924DC0C570091D452 /* PlayingCardView.swift */,
+				FAD8458524DC01D20091D452 /* PlayingCard.swift */,
+				FAD8458724DC06860091D452 /* PlayingCardDeck.swift */,
+			);
+			path = PlayingCard;
+			sourceTree = "<group>";
+		};
 		FAD8456424DC016B0091D452 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +74,11 @@
 		FAD8456F24DC016B0091D452 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
+				FAD8457624DC016B0091D452 /* Main.storyboard */,
 				FAD8457424DC016B0091D452 /* ViewController.swift */,
 				FAE533E525028F08006CF10D /* CardBehavior.swift */,
-				FAD8458924DC0C570091D452 /* PlayingCardView.swift */,
-				FAD8457624DC016B0091D452 /* Main.storyboard */,
-				FAD8458524DC01D20091D452 /* PlayingCard.swift */,
-				FAD8458724DC06860091D452 /* PlayingCardDeck.swift */,
 				FAD8457924DC016D0091D452 /* Assets.xcassets */,
+				FA4289ED2513878500FE0407 /* PlayingCard */,
 				FAD8458424DC01970091D452 /* Supporting Files */,
 				FAD8457E24DC016D0091D452 /* Info.plist */,
 			);
